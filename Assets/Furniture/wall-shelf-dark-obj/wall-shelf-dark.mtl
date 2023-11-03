@@ -1,0 +1,30 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl ligneroset_dedicato_shelving_unit_120_mat_3__mtl_1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd dcmap_ligneroset_dedicato_diff.jpg
+
+newmtl ligneroset_dedicato_shelving_unit_120_mat_3__mtl_2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.650980 0.650980 0.650980
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl ligneroset_dedicato_shelving_unit_120_mat_3__mtl_3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000392 0.000392 0.000392
+Ni 1.000000
+d 1.000000
+illum 2
