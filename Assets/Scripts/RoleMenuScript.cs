@@ -50,11 +50,6 @@ public class RoleMenuScript : MonoBehaviour
         SceneManager.LoadScene("UpdateChildNameScene");
     }
 
-    public void GoToCorridorSettingScene()
-    {
-        SceneManager.LoadScene("CorridorSettingScene");
-    }
-
     public void GoToChangeBgScene()
     {
         SceneManager.LoadScene("ChangeBgScene");
@@ -79,12 +74,6 @@ public class RoleMenuScript : MonoBehaviour
     public void GoToLoadingSceneStory2()
     {
         PlayerPrefs.SetInt("StoryChosen", 2);
-        SceneManager.LoadScene("LoadingScene");
-    }
-
-    public void GoToLoadingSceneStory3()
-    {
-        PlayerPrefs.SetInt("StoryChosen", 3);
         SceneManager.LoadScene("LoadingScene");
     }
 
