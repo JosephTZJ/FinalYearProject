@@ -32,10 +32,8 @@ public class ClassroomSceneScript : MonoBehaviour
         //// ---- To set the table chair in the classroom ---- ////
         Scene currentScene = SceneManager.GetActiveScene();
         string[] targetScenes = {
-            "ClassroomScene", "Story1_4ClassroomScene", "Story2_1ClassroomScene",
-            "Story2_2ClassroomScene", "Story2_3ClassroomScene", "Story2_4ClassroomScene",
-            "Story2_5ClassroomScene", "Story2_6ClassroomScene", "Story2_7ClassroomScene",
-            "Story2_8ClassroomScene", "Story3_1ClassroomScene", "Story3_2ClassroomScene"
+            "ClassroomScene", "Story2_1ClassroomScene",
+            "Story2_2ClassroomScene"
         };
 
         if (System.Array.Exists(targetScenes, scene => scene == currentScene.name))

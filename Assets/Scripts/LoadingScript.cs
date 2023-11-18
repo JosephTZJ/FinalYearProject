@@ -19,11 +19,6 @@ public class LoadingScript : MonoBehaviour
         {
             case 1:
             {
-                SceneManager.LoadScene("Story1_1RoadScene"); // Load the story scene
-                break;
-            }
-            case 2:
-            {
                 SceneManager.LoadScene("Story2_1ClassroomScene"); // Load the story scene
                 break;
             }

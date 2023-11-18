@@ -65,12 +65,6 @@ public class RoleMenuScript : MonoBehaviour
         SceneManager.LoadScene("RoleMenuScene");
     }
 
-    public void GoToLoadingSceneStory1()
-    {
-        PlayerPrefs.SetInt("StoryChosen", 1);
-        SceneManager.LoadScene("LoadingScene");
-    }
-
     public void GoToLoadingSceneStory2()
     {
         PlayerPrefs.SetInt("StoryChosen", 2);
