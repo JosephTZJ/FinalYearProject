@@ -17,7 +17,7 @@ public class LoadingScript : MonoBehaviour
         yield return new WaitForSeconds(5f); // Wait for 5 seconds
         switch (storyNum)
         {
-            case 1:
+            case 2:
             {
                 SceneManager.LoadScene("Story2_1ClassroomScene"); // Load the story scene
                 break;
