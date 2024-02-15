@@ -110,6 +110,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UpdateChildNameScene.unity
     guid: 8d5ab648fdfbba94b9e8bda2f3507e49
+  - enabled: 1
+    path: Assets/Scenes/Story3_1ClassroomScene.unity
+    guid: 109de6319f1eed44bbee9955e6430805
+  - enabled: 1
+    path: Assets/Scenes/Story3_2PlaygroundScene.unity
+    guid: 8b89fa8f9b64bee40bd4ae3a17f46736
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cf5da95b87c484c4a80f864824344a1c, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: bc25d3b32eebc084e9b52c1da700f1ba, type: 2}

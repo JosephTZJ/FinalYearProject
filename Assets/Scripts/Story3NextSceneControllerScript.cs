@@ -18,10 +18,10 @@ public class Story3NextSceneControllerScript : MonoBehaviour
                 {
                     secondWait = 27;
                     StartCoroutine(DelayFunction(secondWait));
-                    nextSceneName = "EndStoryScene";
+                    nextSceneName = "Story3_2PlaygroundScene";
                     break;
                 }
-            case "Story3_2ClassroomScene":
+            case "Story3_2PlaygroundScene":
                 {
                     secondWait = 79;
                     StartCoroutine(DelayFunction(secondWait));
