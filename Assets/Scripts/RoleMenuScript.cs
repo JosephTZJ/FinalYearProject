@@ -37,6 +37,11 @@ public class RoleMenuScript : MonoBehaviour
         SceneManager.LoadScene("ClassroomSettingScene");
     }
 
+    public void GoToAudioSettingScene()
+    {
+        SceneManager.LoadScene("AudioSettingScene");
+    }
+
     public void GoToUpdateChildNameScene()
     {
         SceneManager.LoadScene("UpdateChildNameScene");
@@ -60,6 +65,11 @@ public class RoleMenuScript : MonoBehaviour
     public void GoToLoadingSceneStory2()
     {
         PlayerPrefs.SetInt("StoryChosen", 2);
+        SceneManager.LoadScene("LoadingScene");
+    }
+    public void GoToLoadingSceneStory3()
+    {
+        PlayerPrefs.SetInt("StoryChosen", 3);
         SceneManager.LoadScene("LoadingScene");
     }
 

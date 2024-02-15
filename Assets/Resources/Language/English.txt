@@ -22,3 +22,4 @@ story2Text19= They may touch my arm or hand.
 story2Text20= It may be their way to make friends.
 story2Text21= It is ok.
 story2Text22= It is still fun when playing with friends.
+story3Text1=

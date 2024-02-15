@@ -22,6 +22,12 @@ public class LoadingScript : MonoBehaviour
                 SceneManager.LoadScene("Story2_1ClassroomScene"); // Load the story scene
                 break;
             }
+
+            case 3:
+            {
+                SceneManager.LoadScene("Story3_1ClassroomScene"); // Load the story scene
+                break;
+            }
         }
         
 
