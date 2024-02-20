@@ -983,7 +983,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -24.621666, y: -13.263741, z: -106.011536, w: -13.638153}
+  m_margin: {x: -150.73668, y: -46.683792, z: -106.011536, w: -13.638153}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1382,8 +1382,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -114.1, y: 161.8}
-  m_SizeDelta: {x: -230.5, y: -327.8}
+  m_AnchoredPosition: {x: -119.600006, y: 161.8}
+  m_SizeDelta: {x: -242.4, y: -327.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &705388120
 Animator:
@@ -1395,7 +1395,7 @@ Animator:
   m_GameObject: {fileID: 705388118}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3e0a185a859863b4bbe1c6c19069c32b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2084,10 +2084,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Let\u2019s go and remember do not be too loud."
+  m_text: Let's go and remember do not be too loud.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597ce1bc2555a6644b1e130a8cd4bfaf, type: 2}
-  m_sharedMaterial: {fileID: -5459410016884986833, guid: 597ce1bc2555a6644b1e130a8cd4bfaf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37b034a8178197e4588c52a26a8e126c, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 37b034a8178197e4588c52a26a8e126c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -27.954094, y: 7.17408, z: -196.99913, w: -41.761326}
+  m_margin: {x: 297.80414, y: -118.33124, z: -1062.0817, w: -41.761326}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2335,8 +2335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 84, y: -276}
-  m_SizeDelta: {x: -561.4, y: -381.68}
+  m_AnchoredPosition: {x: 346, y: -318.40002}
+  m_SizeDelta: {x: -679, y: -397.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &922158377
 Animator:
@@ -2348,7 +2348,7 @@ Animator:
   m_GameObject: {fileID: 922158375}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a61459989bf6ba4087756f5f660270f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2631,7 +2631,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -24.621666, y: -13.263741, z: -106.011536, w: -13.638153}
+  m_margin: {x: -24.621666, y: -32.72, z: -124.15976, w: -13.638153}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5224,7 +5224,7 @@ Animator:
   m_GameObject: {fileID: 2021965427}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2fc1f38f94a85a4db7198196d6aee81, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

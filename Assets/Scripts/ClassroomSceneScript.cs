@@ -33,7 +33,7 @@ public class ClassroomSceneScript : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         string[] targetScenes = {
             "ClassroomScene", "Story2_1ClassroomScene",
-            "Story2_2ClassroomScene"
+            "Story2_2ClassroomScene","Story3_1ClassroomScene"
         };
 
         if (System.Array.Exists(targetScenes, scene => scene == currentScene.name))
