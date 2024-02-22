@@ -16,14 +16,14 @@ public class Story3NextSceneControllerScript : MonoBehaviour
         {
             case "Story3_1ClassroomScene":
                 {
-                    secondWait = 21;
+                    secondWait = 28;
                     StartCoroutine(DelayFunction(secondWait));
                     nextSceneName = "Story3_2PlaygroundScene";
                     break;
                 }
             case "Story3_2PlaygroundScene":
                 {
-                    secondWait = 64;
+                    secondWait = 73;
                     StartCoroutine(DelayFunction(secondWait));
                     nextSceneName = "EndStoryScene";
                     break;
