@@ -21,6 +21,9 @@ using Google.XR.Cardboard;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Management;
+using UnityEngine.SceneManagement;
+// using BackgroundMusicAudioPlayerScript;
+
 
 /// <summary>
 /// Turns VR mode on and off.
@@ -34,6 +37,7 @@ public class VrModeController : MonoBehaviour
 
     // Main camera from the scene.
     private Camera _mainCamera;
+    private Scene currentScene;
 
     /// <summary>
     /// Gets a value indicating whether the screen has been touched this frame.
@@ -79,6 +83,25 @@ public class VrModeController : MonoBehaviour
         {
             Api.ScanDeviceParams();
         }
+        currentScene = SceneManager.GetActiveScene();
+        string[] VRModeScenes = {
+            "Story2_1ClassroomScene", "Story2_2ClassroomScene", "Story3_1ClassroomScene", "Story3_2PlaygroundScene"
+        };
+        string[] NonVRModeScenes = {
+            "ChangeBgScene", "ClassroomSettingScene", "CorridorSettingScene",
+            "LanguageSelectionScene", "LoadingScene", "ModifyObjectScene",
+            "ParentChooseEnvironmentScene", "RoleMenuScene", "StorySelectionScene",
+            "UpdateChildNameScene"
+        };
+
+        if (System.Array.Exists(VRModeScenes, scene => scene == currentScene.name))
+        {
+            EnterVR();
+        }
+        else if (System.Array.Exists(NonVRModeScenes, scene => scene == currentScene.name))
+        {
+            ExitVR();
+        }
     }
 
     /// <summary>
@@ -86,7 +109,34 @@ public class VrModeController : MonoBehaviour
     /// </summary>
     public void Update()
     {
-        if (_isVrModeEnabled)
+        if (Api.IsCloseButtonPressed)
+        {
+            // Animator animator = GetComponent<Animator>();
+            // if (animator != null)
+            // {
+            //     animator.enabled = false; // Disable the Animator component
+            // }
+
+            // Find all objects with Animator components in the scene
+            // Animator[] animators = FindObjectsOfType<Animator>();
+
+            // // Optionally, you can filter the animators based on specific criteria (tags, names, etc.)
+            // // animators = animators.Where(animator => animator.CompareTag("YourTag")).ToArray();
+
+            // // Disable all found animators
+            // foreach (Animator animator in animators)
+            // {
+            //     if (animator != null)
+            //     {
+            //         Debug.Log("active animators: "+ animator);
+            //         SSTools.ShowMessage("active animators:"+ animator, SSTools.Position.bottom, SSTools.Time.oneSecond);
+            //         animator.enabled = false;
+            //     }
+            // }
+            // // BackgroundMusicAudioPlayerScript instance = instance.GetComponent<AudioSource>().Pause();
+            // SceneManager.LoadScene("StorySelectionScene");
+        }
+        /* if (_isVrModeEnabled)
         {
             if (Api.IsCloseButtonPressed)
             {
@@ -107,7 +157,7 @@ public class VrModeController : MonoBehaviour
             {
                 EnterVR();
             }
-        }
+        } */
     }
 
     /// <summary>

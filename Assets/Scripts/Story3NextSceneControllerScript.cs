@@ -23,7 +23,7 @@ public class Story3NextSceneControllerScript : MonoBehaviour
                 }
             case "Story3_2PlaygroundScene":
                 {
-                    secondWait = 73;
+                    secondWait = 96;
                     StartCoroutine(DelayFunction(secondWait));
                     nextSceneName = "EndStoryScene";
                     break;

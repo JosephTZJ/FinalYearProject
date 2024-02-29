@@ -63,6 +63,7 @@ public class LanguageScript : MonoBehaviour
 
                 Transform panel = PanelManager.Instance.GetPanelByName("TextBubble");
                 Transform panel2 = PanelManager.Instance.GetPanelByName("TextBubble2");
+                Transform panel3 = PanelManager.Instance.GetPanelByName("TextBubble3");
 
                 // Find all the panels that are children of the canvas
                 // Transform panel = canvas.transform.Find("TextBubble");
@@ -108,6 +109,30 @@ public class LanguageScript : MonoBehaviour
                             textMeshPro2.font = fontAssetEnglish;
 
                         Debug.Log("TextMeshPro2 found: " + textMeshPro2.name + "\nText: " + textMeshPro2.text);
+
+                    }
+                }
+                else
+                {
+                    Debug.Log("here again");
+                }
+
+                if (panel3 != null)
+                {
+                    panel3.gameObject.SetActive(true);
+                    // Find the TextMeshPro components under each panel
+                    TextMeshProUGUI[] textMeshProArray3 = panel3.GetComponentsInChildren<TextMeshProUGUI>(true);
+
+                    // Access and manipulate the TextMeshPro components
+                    foreach (TextMeshProUGUI textMeshPro3 in textMeshProArray3)
+                    {
+                        textMeshPro3.text = GetLocalizedString(textMeshPro3.name);
+                        if (languageSelected == "Chinese")
+                            textMeshPro3.font = fontAssetChinese;
+                        else if (languageSelected == "English" || languageSelected == "Melayu")
+                            textMeshPro3.font = fontAssetEnglish;
+
+                        Debug.Log("TextMeshPro2 found: " + textMeshPro3.name + "\nText: " + textMeshPro3.text);
 
                     }
                 }
