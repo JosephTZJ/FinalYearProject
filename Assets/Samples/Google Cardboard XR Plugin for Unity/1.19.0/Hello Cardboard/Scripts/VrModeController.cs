@@ -91,7 +91,7 @@ public class VrModeController : MonoBehaviour
             "ChangeBgScene", "ClassroomSettingScene", "CorridorSettingScene",
             "LanguageSelectionScene", "LoadingScene", "ModifyObjectScene",
             "ParentChooseEnvironmentScene", "RoleMenuScene", "StorySelectionScene",
-            "UpdateChildNameScene"
+            "UpdateChildNameScene", "AudioSettingScene"
         };
 
         if (System.Array.Exists(VRModeScenes, scene => scene == currentScene.name))
