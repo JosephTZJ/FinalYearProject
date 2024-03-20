@@ -85,13 +85,13 @@ public class VrModeController : MonoBehaviour
         }
         currentScene = SceneManager.GetActiveScene();
         string[] VRModeScenes = {
-            "Story2_1ClassroomScene", "Story2_2ClassroomScene", "Story3_1ClassroomScene", "Story3_2PlaygroundScene"
+            "Story2_1ClassroomScene", "Story2_2ClassroomScene", "Story3_1ClassroomScene", "Story3_2PlaygroundScene", "LoadingScene"
         };
         string[] NonVRModeScenes = {
             "ChangeBgScene", "ClassroomSettingScene", "CorridorSettingScene",
-            "LanguageSelectionScene", "LoadingScene", "ModifyObjectScene",
+            "LanguageSelectionScene", "ModifyObjectScene",
             "ParentChooseEnvironmentScene", "RoleMenuScene", "StorySelectionScene",
-            "UpdateChildNameScene", "AudioSettingScene"
+            "UpdateChildNameScene", "AudioSettingScene","EndStoryScene"
         };
 
         if (System.Array.Exists(VRModeScenes, scene => scene == currentScene.name))

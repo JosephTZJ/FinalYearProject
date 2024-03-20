@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 176329934}
   - component: {fileID: 176329933}
   - component: {fileID: 176329932}
+  - component: {fileID: 176329938}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -380,6 +381,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &176329938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176329931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f478d43f27e324b7199d5dccff4298b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &180635783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1108,7 +1121,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -150.73668, y: -46.683792, z: -106.011536, w: -13.638153}
+  m_margin: {x: -69.116135, y: -11.212479, z: -35.504425, w: 4.1915436}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1507,7 +1520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -222.99997, y: 161.8}
+  m_AnchoredPosition: {x: -223, y: 161.8}
   m_SizeDelta: {x: -242.4, y: -327.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &705388120
@@ -2319,7 +2332,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 297.80414, y: -118.33124, z: -1062.0817, w: -41.761326}
+  m_margin: {x: 571.67334, y: -79.98489, z: -705.9262, w: 77.45882}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2508,8 +2521,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 346, y: -318.40002}
-  m_SizeDelta: {x: -679, y: -397.6}
+  m_AnchoredPosition: {x: 382.1, y: -247.09998}
+  m_SizeDelta: {x: -520.6, y: -330.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &922158377
 Animator:
@@ -2804,7 +2817,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -24.621666, y: -32.72, z: -124.15976, w: -13.638153}
+  m_margin: {x: -17.529121, y: -32.72, z: -120.205536, w: -13.638153}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
